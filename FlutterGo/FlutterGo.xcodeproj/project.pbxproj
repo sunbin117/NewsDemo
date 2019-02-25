@@ -25,6 +25,7 @@
 		070E6E2D221EA28000922940 /* ArticleUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 070E6E2C221EA28000922940 /* ArticleUserModel.m */; };
 		070E6E36221FA12400922940 /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070E6E34221FA12400922940 /* ArticleViewController.m */; };
 		070E6E37221FA12400922940 /* ArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070E6E35221FA12400922940 /* ArticleViewController.xib */; };
+		07D1A1CB2223C169001BE083 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1A1CA2223C169001BE083 /* BlogViewController.m */; };
 		0DB1B5BCEDCC5354D4BD833D /* libPods-FlutterGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43939CDC0E8765260754D1B1 /* libPods-FlutterGo.a */; };
 		53A7B138A7C9B635D5F3021C /* libPods-FlutterGoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E25DFCF0909254093AD058 /* libPods-FlutterGoTests.a */; };
 /* End PBXBuildFile section */
@@ -79,6 +80,8 @@
 		070E6E33221FA12400922940 /* ArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
 		070E6E34221FA12400922940 /* ArticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
 		070E6E35221FA12400922940 /* ArticleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleViewController.xib; sourceTree = "<group>"; };
+		07D1A1C92223C169001BE083 /* BlogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
+		07D1A1CA2223C169001BE083 /* BlogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
 		0D8C33F69A05C8DCF2515528 /* Pods-FlutterGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlutterGoUITests/Pods-FlutterGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4150625C0D13BF4C53DDB99C /* Pods-FlutterGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlutterGoUITests/Pods-FlutterGoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		43939CDC0E8765260754D1B1 /* libPods-FlutterGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlutterGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +211,8 @@
 				070E6E33221FA12400922940 /* ArticleViewController.h */,
 				070E6E34221FA12400922940 /* ArticleViewController.m */,
 				070E6E35221FA12400922940 /* ArticleViewController.xib */,
+				07D1A1C92223C169001BE083 /* BlogViewController.h */,
+				07D1A1CA2223C169001BE083 /* BlogViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				070E6DEA221E4F6000922940 /* FlutterGo.xcdatamodeld in Sources */,
+				07D1A1CB2223C169001BE083 /* BlogViewController.m in Sources */,
 				070E6DE4221E4F6000922940 /* ViewController.m in Sources */,
 				070E6E21221E94BD00922940 /* ArticleModel.m in Sources */,
 				070E6E1E221E76D000922940 /* ArticleCell.m in Sources */,
