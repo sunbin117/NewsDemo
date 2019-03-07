@@ -54,6 +54,7 @@
         self.pageIndex ++;
         [self loadData];
     }];
+    self.tableView.mj_footer.hidden = YES;
 }
 
 - (void)loadData {
@@ -73,6 +74,7 @@
             [self.dataArr addObjectsFromArray:model.d.entrylist];
         }
         [self.hud hideAnimated:YES];
+        self.tableView.mj_footer.hidden = NO;
         [self.tableView.mj_header endRefreshing];
         [self.tableView.mj_footer endRefreshing];
         [self.tableView reloadData];
