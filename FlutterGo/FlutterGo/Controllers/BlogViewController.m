@@ -23,8 +23,8 @@
     self.title = @"博客";
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    self.titleArray = [NSArray arrayWithObjects:@"flutter中文网",@"flutter-go",@"咸鱼技术",@"美团技术团队",@"掘金专栏", @"简书专栏",@"资源汇总",nil];
-    self.urlArray = [NSArray arrayWithObjects:@"https://flutterchina.club/",@"https://github.com/alibaba/flutter-go",@"https://www.yuque.com/xytech/flutter",@"https://tech.meituan.com/tags/flutter.html",@"https://juejin.im/tag/Flutter",@"https://www.jianshu.com/c/ebc9d2e84214",@"https://github.com/crazycodeboy/awesome-flutter-cn" ,nil];
+    self.titleArray = [NSArray arrayWithObjects:@"官方中文社区",@"flutter中文网",@"flutter-go",@"咸鱼技术",@"美团技术团队",@"掘金专栏", @"简书专栏",@"资源汇总",nil];
+    self.urlArray = [NSArray arrayWithObjects:@"https://flutter-io.cn/",@"https://flutterchina.club/",@"https://github.com/alibaba/flutter-go",@"https://www.yuque.com/xytech/flutter",@"https://tech.meituan.com/tags/flutter.html",@"https://juejin.im/tag/Flutter",@"https://www.jianshu.com/c/ebc9d2e84214",@"https://github.com/crazycodeboy/awesome-flutter-cn" ,nil];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
